@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-page {
+  background-color: rgb(205, 205, 205);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}

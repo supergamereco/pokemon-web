@@ -1,0 +1,141 @@
+.card {
+    background-color: #fff;
+}
+
+.frame {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-image img {
+    background-image: url('../../assets/image/pokeball_bg.png');
+    background-size: cover;
+    width: 75%;
+    height: 75%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; 
+}
+
+.card-name {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card-number {
+    font-family: Arial;
+    margin-bottom: -1rem;
+    margin-right: 11rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-content {
+    justify-content: center;
+}
+
+.card-type {
+    font-family: Arial;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: inline-block;
+
+    &.type-grass {
+        background-color: green;
+        color: #fff;
+    }
+    &.type-fire {
+        background-color: red;
+        color: #fff;
+    }
+    &.type-water {
+        background-color: mediumturquoise;
+        color: #333;
+    }
+    &.type-poison {
+        background-color: purple;
+        color: #fff;
+    }
+    &.type-ghost {
+        background-color: slateblue;
+        color: #fff;
+    }
+    &.type-normal {
+        background-color: silver;
+        color: #333;
+    }
+    &.type-fighting {
+        background-color: orange;
+        color: #333;
+    }
+    &.type-flying {
+        background-color: skyblue;
+        color: #333;
+    }
+    &.type-ground {
+        background-color: brown;
+        color: #fff;
+    }
+    &.type-rock {
+        background-color: sienna;
+        color: #fff;
+    }
+    &.type-bug {
+        background-color: greenyellow;
+        color: #333;
+    }
+    &.type-steel {
+        background-color: mintcream;
+        color: #333;
+    }
+    &.type-electric {
+        background-color: yellow;
+        color: #333;
+    }
+    &.type-psychic {
+        background-color: violet;
+        color: #333;
+    }
+    &.type-ice {
+        background-color: aqua;
+        color: #333;
+    }
+    &.type-dragon {
+        background-color: teal;
+        color: #fff;
+    }
+    &.type-dark {
+        background-color: midnightblue;
+        color: #fff;
+    }
+    &.type-fairy {
+        background-color: pink;
+        color: #333;
+    }
+    &.type-unknown {
+        background-color: gray;
+        color: #fff;
+    }
+    &.type-shadow {
+        background-color: black;
+        color: #fff;
+    }&.type-null {
+        display: none;
+    }
+}
+
+.card-action a {
+    background-color: #333;
+    color:#fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
